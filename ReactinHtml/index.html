@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  <body>
+  
+    <div id="div"></div>
+
+    <script type="text/babel">
+      class Work extends React.Component {
+        render() {
+          return <h1>React in Html</h1>
+        }
+      }
+
+      ReactDOM.render(<Work />, document.getElementById('div'))
+    </script>
+  </body>
+</html>
